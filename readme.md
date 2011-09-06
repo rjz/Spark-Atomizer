@@ -1,7 +1,7 @@
 Atomizer
 ========
 
-Atomizer is a Codeigniter library that provides a friendly interface for managing RSS data. It doesn't actually offer official support for the Atom format. Yet.
+Atomizer provides a friendly interface for managing RSS data, but it doesn't officially support Atom.
 
 Introduction
 ------------

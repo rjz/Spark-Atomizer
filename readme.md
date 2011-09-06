@@ -1,14 +1,14 @@
 Atomizer
 ========
 
-Atomizer is a Codeigniter library that provides a friendly interface for managing RSS data that doesn't actually offer official support for the Atom format. Yet.
+Atomizer is a Codeigniter library that provides a friendly interface for managing RSS data. It doesn't actually offer official support for the Atom format. Yet.
 
 Introduction
 ------------
 
-Available for Codeigniter via [Sparks](http://getsparks.org/install).
+Atomizer is available for Codeigniter via [Sparks](http://getsparks.org/install).
 
-You can then load the spark using:
+Once you've got the spark set up, you can load it using:
 
 	$this->load->spark('atomizer/[version #]');
 

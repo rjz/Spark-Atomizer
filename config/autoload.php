@@ -1,6 +1,6 @@
 <?php
 
-# Load the markdown helper
+// Autoload the atomizer library
 $autoload['libraries'] = array('atomizer');
 
 ?>

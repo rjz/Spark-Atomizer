@@ -43,4 +43,23 @@ class AtomizerItem extends AtomizerStruct {
 
 		$channel->appendChild( $item );
 	}
+
+	/**
+	 *	Compare two items by date for sorting
+	 * 
+	 *	@param	AtomizerItem	the first item to compare
+	 * @param	AtomizerItem	the second item to compare
+	 */
+	static public function compare( $a, $b ) {
+
+		$adate = strtotime($a->pubDate);
+		$bdate = strtotime($b->pubDate);
+		
+		if( $adate === $bdate ) {
+			
+			return 0;
+		}
+		
+		return ($adate < $bdate) ? 1 : -1;
+	}
 }

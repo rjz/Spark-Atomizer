@@ -14,7 +14,7 @@ Once you've got the spark set up, you can load it using:
 
 Once Atomizer is loaded, we can get on to more exciting things.
 
-### Creating feeds
+###Creating feeds
 
 	$info = array(
 		'title' => 'my feed'
@@ -33,7 +33,7 @@ Once Atomizer is loaded, we can get on to more exciting things.
 
 	$feed = $this->atomizer->create( $info, $items );
 
-### Adding items to a feed
+###Adding items to a feed
 
 	$item = new AtomizerItem(array(
 		'title' => 'my third feed entry',
@@ -42,12 +42,24 @@ Once Atomizer is loaded, we can get on to more exciting things.
 
 	$feed->addItem( $item );
 
-### Saving a feed as XML
+###(re)Mixing feeds
+
+Two feeds may be combined using the `convolve` method. 
+
+	$remix = $feed->convolve( $otherfeed, $info );
+
+###Sorting feeds
+
+The order of an RSS feed is time-agnostic, but applications may benefit from having data ordered by publishing time.
+
+	$feed->sort();
+
+###Saving a feed as XML
 
 	header('Content-type: application/rss+xml');
 	echo $this->atomizer->save( $feed );
 
-### Parsing feeds
+###Parsing feeds
 
 	$url = 'http://rss.news.yahoo.com/rss/topstories';
 	$feed = $this->atomizer->load( file_get_contents( $url ) );

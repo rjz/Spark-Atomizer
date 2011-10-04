@@ -116,6 +116,26 @@ class AtomizerFeed {
 	}
 
 	/**
+	 * Retrieve all of the items in this feed
+	 * @param	number	(optional) The index of the channel to retrieve items for
+	 * @return	array
+	 */
+	public function items( $index = -1 ) {
+
+		if( array_key_exists( $index, $this->channels ) ) {
+			return $this->channels[ $index ]->items;
+		}
+		
+		$items = array();
+
+		foreach( $this->channels as &$channel ) {
+			$items = array_merge( $items, $channel->items );
+		}
+
+		return $items;
+	}
+
+	/**
 	 *	Read a feed from XML Data
 	 *	@param	string	The XML content (i.e., RSS feed) to parse
 	 *	@return	AtomizerFeed
@@ -134,6 +154,16 @@ class AtomizerFeed {
 		}
 
 		return $this;
+	}
+
+	/**
+	 *  Sort this feed's items
+	 */
+	public function sort() {
+
+		foreach($this->channels as &$channel) {
+			$channel->sort();
+		}
 	}
 
 	/**

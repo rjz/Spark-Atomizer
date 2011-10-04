@@ -96,25 +96,6 @@ class AtomizerChannel extends AtomizerStruct {
 	 *  Sort this channel's items
 	 */
 	public function sort() {
-		usort( $this->items, array( $this, 'compare_item' ) );
-	}
-	
-	/**
-	 *	Compare two items by date for sorting
-	 * 
-	 *	@param	AtomizerItem	the first item to compare
-	 * @param	AtomizerItem	the second item to compare
-	 */
-	protected function compare_item( $a, $b ) {
-
-		$adate = strtotime($a->pubDate);
-		$bdate = strtotime($b->pubDate);
-		
-		if( $adate === $bdate ) {
-			
-			return 0;
-		}
-		
-		return ($adate < $bdate) ? 1 : -1;
+		usort( $this->items, array( 'AtomizerItem', 'compare' ) );
 	}
 }

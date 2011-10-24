@@ -17,6 +17,7 @@ class Atomizer_feed extends CI_Model {
 	public function create( $info = NULL, $entries = NULL ) {
 
 		$feed = new AtomizerFeed( $info, $entries );
+		return $feed;
 	}
 
 	/**
@@ -40,7 +41,7 @@ class Atomizer_feed extends CI_Model {
 	public function load( $content ) {
 
 		$feed = new AtomizerFeed();
-		$feed->load( $url );
+		$feed->load( $content );
 
 		return $feed;
 	}

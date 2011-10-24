@@ -64,11 +64,15 @@ The order of an RSS feed is time-agnostic, but applications may benefit from hav
 	$url = 'http://rss.news.yahoo.com/rss/topstories';
 	$feed = $this->atomizer->load( file_get_contents( $url ) );
 
-	$items = $feed->channels[0]->items;
+	foreach( $feed->channels as $channel ) {
+
+		$items = $channel->items;
 	
-	foreach( $items as $item ) {
-		print_r( $items );
+		foreach( $items as $item ) {
+			echo '<li>' . $item->title . '</li>';
+		}
 	}
+
 
 Author
 ------

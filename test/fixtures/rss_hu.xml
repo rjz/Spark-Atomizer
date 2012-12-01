@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:dc="http://purl.org/dc/elements/1.1/"> 
+<channel xmlns:atom="http://www.w3.org/2005/Atom"> 
+<title><![CDATA[MVH Portal]]></title> 
+<link>http://mvh.gov.hu:</link> 
+<description></description> 
+<language>hu-HU</language>
+ 
+<item> 
+<title><![CDATA[Figyelemfelhívás]]></title>
+<link>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tajekoztatok/figyelemfelhivas_20121128_1034048</link>
+<guid>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tajekoztatok/figyelemfelhivas_20121128_1034048</guid>
+<pubDate>Sat, 01 Dec 2012 14:27:00 +0100</pubDate>
+ <description><![CDATA[Figyelemfelhívás az Európai Mezőgazdasági Vidékfejlesztési Alapból finanszírozott
+egyes agrártárgyú miniszteri rendeletek módosításáról szóló 56/2012. (VI. 22. ) VM rendelettel érintett ügyfelek részére.]]></description>
+</item>
+<item> 
+<title><![CDATA[171/2012 (XI.30.) számú MVH Közlemény]]></title>
+<link>http://mvh.gov.hu:/portal/MVHPortal/default/mainmenu/kozlemenyek/mvhk1712012</link>
+<guid>http://mvh.gov.hu:/portal/MVHPortal/default/mainmenu/kozlemenyek/mvhk1712012</guid>
+<pubDate>Sat, 01 Dec 2012 10:57:00 +0100</pubDate>
+ <description><![CDATA[az Európai Mezőgazdasági Vidékfejlesztési Alapból az egyes beruházási jogcímek esetén nyújtható támogatási előleg igénybevételének részletes feltételeiről]]></description>
+</item>
+<item> 
+<title><![CDATA[Aktuális]]></title>
+<link>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tamogatas_informaciok/ures_tartalom_20100105_1008048</link>
+<guid>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tamogatas_informaciok/ures_tartalom_20100105_1008048</guid>
+<pubDate>Sat, 01 Dec 2012 10:36:00 +0100</pubDate>
+ <description><![CDATA[]]></description>
+</item>
+<item> 
+<title><![CDATA[Változik a szőlő- és gyümölcsös ültetvények műveléséhez nyújtott csekély összegű (de minimis) támogatás igénybevételi eljárása]]></title>
+<link>http://mvh.gov.hu:/portal/MVHPortal/default/mainmenu/hirek/valtozik_a_szolo_es_gyumolcsos_20121130_1034092</link>
+<guid>http://mvh.gov.hu:/portal/MVHPortal/default/mainmenu/hirek/valtozik_a_szolo_es_gyumolcsos_20121130_1034092</guid>
+<pubDate>Fri, 30 Nov 2012 15:29:00 +0100</pubDate>
+ <description><![CDATA[]]></description>
+</item>
+<item> 
+<title><![CDATA[Kitöltési segédlet]]></title>
+<link>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tajekoztatok/kitoltesi_segedlet_20121130_1034085</link>
+<guid>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tajekoztatok/kitoltesi_segedlet_20121130_1034085</guid>
+<pubDate>Fri, 30 Nov 2012 13:29:00 +0100</pubDate>
+ <description><![CDATA[a működési alapok támogatásának igénybevételéről szóló 170/2012. (XI. 29.) számú MVH Közleményben rendszeresített B0420 és B0421 számú nyomtatványok helyes kitöltéséhez]]></description>
+</item>
+<item> 
+<title><![CDATA[91/2012. (VIII. 29.) VM rendelet]]></title>
+<link>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/joganyagok/rendelet_20121130_1034077</link>
+<guid>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/joganyagok/rendelet_20121130_1034077</guid>
+<pubDate>Fri, 30 Nov 2012 11:46:00 +0100</pubDate>
+ <description><![CDATA[ a szőlő- és gyümölcsös ültetvények műveléséhez nyújtott csekély összegű (de minimis) támogatásról
+]]></description>
+</item>
+<item> 
+<title><![CDATA[Tájékoztató]]></title>
+<link>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tajekoztatok/tajekoztato_20121130_1034080</link>
+<guid>http://mvh.gov.hu:/portal/MVHPortal/default/egyebek/tajekoztatok/tajekoztato_20121130_1034080</guid>
+<pubDate>Fri, 30 Nov 2012 10:39:00 +0100</pubDate>
+ <description><![CDATA[Tájékoztató a szőlő- és gyümölcsös ültetvények műveléséhez nyújtott csekély összegű (de minimis) támogatás igénybevételi eljárásának változásáról]]></description>
+</item>
+
+</channel> 
+</rss>
+
